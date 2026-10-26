@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: fastcs-tristan
+  title: fastcs-tristan
+  description: Tristan Control System Integration with FastCS
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:default/sscc
