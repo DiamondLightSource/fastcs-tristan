@@ -51,6 +51,10 @@ GitHub = "https://github.com/DiamondLightSource/fastcs-tristan"
 email = "oliver.copping@diamond.ac.uk"
 name = "Ollie Copping"
 
+[tool.uv]
+# Minimum uv to fix eMudhra CA cert incident (see discuss.python.org/t/109576)
+required-version = ">=0.13.5"
+
 [tool.setuptools_scm]
 version_file = "src/fastcs_tristan/_version.py"
 
